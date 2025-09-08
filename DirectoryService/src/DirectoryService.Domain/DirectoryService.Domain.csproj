@@ -11,4 +11,9 @@
       <PackageReference Include="Swashbuckle.AspNetCore.SwaggerUI" Version="9.0.4" />
     </ItemGroup>
 
+    <ItemGroup>
+      <ProjectReference Include="..\DirectoryService.Contracts\DirectoryService.Contracts.csproj" />
+      <ProjectReference Include="..\DirectoryService.Infrastructure\DirectoryService.Infrastructure.csproj" />
+    </ItemGroup>
+
 </Project>
